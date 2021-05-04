@@ -15,6 +15,8 @@
 		0C15CA1E2640CAFD00BAB1AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15CA1C2640CAFD00BAB1AA /* LaunchScreen.storyboard */; };
 		0C15CA292640CAFD00BAB1AA /* TabBarControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15CA282640CAFD00BAB1AA /* TabBarControllerSampleTests.swift */; };
 		0C15CA342640CAFE00BAB1AA /* TabBarControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15CA332640CAFE00BAB1AA /* TabBarControllerSampleUITests.swift */; };
+		0C15CA452640CF0D00BAB1AA /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15CA442640CF0D00BAB1AA /* TabBar.storyboard */; };
+		0C15CA4E2640D06100BAB1AA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15CA4D2640D06100BAB1AA /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0C15CA2F2640CAFE00BAB1AA /* TabBarControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C15CA332640CAFE00BAB1AA /* TabBarControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerSampleUITests.swift; sourceTree = "<group>"; };
 		0C15CA352640CAFE00BAB1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C15CA442640CF0D00BAB1AA /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		0C15CA4D2640D06100BAB1AA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				0C15CA132640CAF900BAB1AA /* SceneDelegate.swift */,
 				0C15CA152640CAF900BAB1AA /* ViewController.swift */,
 				0C15CA172640CAF900BAB1AA /* Main.storyboard */,
+				0C15CA4C2640D03D00BAB1AA /* TabBar */,
 				0C15CA1A2640CAFD00BAB1AA /* Assets.xcassets */,
 				0C15CA1C2640CAFD00BAB1AA /* LaunchScreen.storyboard */,
 				0C15CA1F2640CAFD00BAB1AA /* Info.plist */,
@@ -126,6 +131,15 @@
 				0C15CA352640CAFE00BAB1AA /* Info.plist */,
 			);
 			path = TabBarControllerSampleUITests;
+			sourceTree = "<group>";
+		};
+		0C15CA4C2640D03D00BAB1AA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0C15CA442640CF0D00BAB1AA /* TabBar.storyboard */,
+				0C15CA4D2640D06100BAB1AA /* TabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			files = (
 				0C15CA1E2640CAFD00BAB1AA /* LaunchScreen.storyboard in Resources */,
 				0C15CA1B2640CAFD00BAB1AA /* Assets.xcassets in Resources */,
+				0C15CA452640CF0D00BAB1AA /* TabBar.storyboard in Resources */,
 				0C15CA192640CAF900BAB1AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C15CA162640CAF900BAB1AA /* ViewController.swift in Sources */,
+				0C15CA4E2640D06100BAB1AA /* TabBarController.swift in Sources */,
 				0C15CA122640CAF900BAB1AA /* AppDelegate.swift in Sources */,
 				0C15CA142640CAF900BAB1AA /* SceneDelegate.swift in Sources */,
 			);
