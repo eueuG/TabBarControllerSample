@@ -7,6 +7,34 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Item-->
+        <scene sceneID="H9Z-KQ-rkI">
+            <objects>
+                <viewController id="nwj-Fa-Mpf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WBv-6g-FO7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xR-Tp-Vc5">
+                                <rect key="frame" x="167" y="428.5" width="80" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UEk-GT-md3"/>
+                        <color key="backgroundColor" red="1" green="0.96344697479999997" blue="0.88519930840000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="7xR-Tp-Vc5" firstAttribute="centerX" secondItem="WBv-6g-FO7" secondAttribute="centerX" id="Mde-VO-T0H"/>
+                            <constraint firstItem="7xR-Tp-Vc5" firstAttribute="centerY" secondItem="WBv-6g-FO7" secondAttribute="centerY" id="NfV-ri-VBo"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="3.circle" catalog="system" id="bFJ-Uh-7bP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5rf-So-cMV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-978" y="388"/>
+        </scene>
         <!--Item 2-->
         <scene sceneID="0yG-8P-Y3m">
             <objects>
@@ -29,11 +57,11 @@
                             <constraint firstItem="7uT-yS-JUz" firstAttribute="centerX" secondItem="sDZ-VD-G4L" secondAttribute="centerX" id="bgL-Xf-8jh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="2Rp-MY-buY"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="2.circle" catalog="system" id="2Rp-MY-buY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="atv-45-IUn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-374" y="469"/>
+            <point key="canvasLocation" x="-371" y="-33"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="EHq-sV-4wf">
@@ -57,11 +85,11 @@
                             <constraint firstItem="tvp-nQ-jOy" firstAttribute="centerX" secondItem="88W-GG-DVa" secondAttribute="centerX" id="wOu-qg-sRT"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="TyH-qa-FVe"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="1.circle" catalog="system" id="TyH-qa-FVe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AYO-XL-jIs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-374" y="-138"/>
+            <point key="canvasLocation" x="-1010" y="-402"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uVt-zj-CeQ">
@@ -75,11 +103,17 @@
                     <connections>
                         <segue destination="gXJ-BF-dOy" kind="relationship" relationship="viewControllers" id="eqD-Pp-TNN"/>
                         <segue destination="7ss-W8-Uyp" kind="relationship" relationship="viewControllers" id="b6f-g2-D30"/>
+                        <segue destination="nwj-Fa-Mpf" kind="relationship" relationship="viewControllers" id="g6h-Fx-VhT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KTz-ok-S2p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1264" y="166"/>
+            <point key="canvasLocation" x="-1842" y="-33"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.circle" catalog="system" width="128" height="121"/>
+        <image name="2.circle" catalog="system" width="128" height="121"/>
+        <image name="3.circle" catalog="system" width="128" height="121"/>
+    </resources>
 </document>
