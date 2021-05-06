@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dbG-Zc-qaA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item1-->
+        <scene sceneID="ex5-Zk-15i">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Item1" id="R3b-v0-ESg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item1" image="1.circle.fill" catalog="system" id="Z39-18-ySC"/>
+                    <navigationItem key="navigationItem" id="CKt-la-8Vy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ee-aj-ruc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1004" y="-183"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="uVt-zj-CeQ">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBar" id="dbG-Zc-qaA" customClass="TabBarController" customModule="TabBarControllerSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="00U-58-LIy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="R3b-v0-ESg" kind="relationship" relationship="viewControllers" id="okD-MC-p2u"/>
+                        <segue destination="SSf-bX-Kem" kind="relationship" relationship="viewControllers" id="z2N-nu-9N0"/>
+                        <segue destination="GMu-g4-boo" kind="relationship" relationship="viewControllers" id="hIJ-eO-aF3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KTz-ok-S2p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1851" y="-33"/>
+        </scene>
+        <!--Item2-->
+        <scene sceneID="uhV-Y0-a0l">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Item2" id="SSf-bX-Kem" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="jWg-1h-8cy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xKW-uu-RAM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1004" y="-33"/>
+        </scene>
+        <!--Item3-->
+        <scene sceneID="ncL-vv-FP8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Item3" id="GMu-g4-boo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="bp1-AC-FYS"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jbj-0k-kXd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1004" y="108"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.circle.fill" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

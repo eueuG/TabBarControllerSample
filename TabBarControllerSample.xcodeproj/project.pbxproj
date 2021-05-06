@@ -15,8 +15,11 @@
 		0C15CA1E2640CAFD00BAB1AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15CA1C2640CAFD00BAB1AA /* LaunchScreen.storyboard */; };
 		0C15CA292640CAFD00BAB1AA /* TabBarControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15CA282640CAFD00BAB1AA /* TabBarControllerSampleTests.swift */; };
 		0C15CA342640CAFE00BAB1AA /* TabBarControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15CA332640CAFE00BAB1AA /* TabBarControllerSampleUITests.swift */; };
-		0C15CA452640CF0D00BAB1AA /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15CA442640CF0D00BAB1AA /* TabBar.storyboard */; };
+		0C15CA452640CF0D00BAB1AA /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15CA442640CF0D00BAB1AA /* TabBarController.storyboard */; };
 		0C15CA4E2640D06100BAB1AA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15CA4D2640D06100BAB1AA /* TabBarController.swift */; };
+		0C7D74652643BD9C000A3A12 /* Item1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7D74642643BD9C000A3A12 /* Item1.storyboard */; };
+		0C7D746A2643BDFB000A3A12 /* Item2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7D74692643BDFB000A3A12 /* Item2.storyboard */; };
+		0C7D746F2643BE11000A3A12 /* Item3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7D746E2643BE11000A3A12 /* Item3.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +54,11 @@
 		0C15CA2F2640CAFE00BAB1AA /* TabBarControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C15CA332640CAFE00BAB1AA /* TabBarControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerSampleUITests.swift; sourceTree = "<group>"; };
 		0C15CA352640CAFE00BAB1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C15CA442640CF0D00BAB1AA /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		0C15CA442640CF0D00BAB1AA /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
 		0C15CA4D2640D06100BAB1AA /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0C7D74642643BD9C000A3A12 /* Item1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Item1.storyboard; sourceTree = "<group>"; };
+		0C7D74692643BDFB000A3A12 /* Item2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Item2.storyboard; sourceTree = "<group>"; };
+		0C7D746E2643BE11000A3A12 /* Item3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Item3.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +142,10 @@
 		0C15CA4C2640D03D00BAB1AA /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				0C15CA442640CF0D00BAB1AA /* TabBar.storyboard */,
+				0C15CA442640CF0D00BAB1AA /* TabBarController.storyboard */,
+				0C7D74642643BD9C000A3A12 /* Item1.storyboard */,
+				0C7D74692643BDFB000A3A12 /* Item2.storyboard */,
+				0C7D746E2643BE11000A3A12 /* Item3.storyboard */,
 				0C15CA4D2640D06100BAB1AA /* TabBarController.swift */,
 			);
 			path = TabBar;
@@ -247,7 +256,10 @@
 			files = (
 				0C15CA1E2640CAFD00BAB1AA /* LaunchScreen.storyboard in Resources */,
 				0C15CA1B2640CAFD00BAB1AA /* Assets.xcassets in Resources */,
-				0C15CA452640CF0D00BAB1AA /* TabBar.storyboard in Resources */,
+				0C7D746A2643BDFB000A3A12 /* Item2.storyboard in Resources */,
+				0C7D746F2643BE11000A3A12 /* Item3.storyboard in Resources */,
+				0C15CA452640CF0D00BAB1AA /* TabBarController.storyboard in Resources */,
+				0C7D74652643BD9C000A3A12 /* Item1.storyboard in Resources */,
 				0C15CA192640CAF900BAB1AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

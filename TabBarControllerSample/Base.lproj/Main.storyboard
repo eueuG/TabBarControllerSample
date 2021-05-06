@@ -32,15 +32,16 @@
                             <constraint firstItem="eq3-8h-DFu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wHR-HH-Uam"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ugQ-be-pby"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-533" y="208"/>
+            <point key="canvasLocation" x="-354" y="44"/>
         </scene>
-        <!--TabBar-->
+        <!--TabBarController-->
         <scene sceneID="nHa-C9-7Oq">
             <objects>
-                <viewControllerPlaceholder storyboardName="TabBar" id="C4X-bm-EVT" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="TabBarController" id="C4X-bm-EVT" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="ufu-ng-MWx"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYn-Wf-O6Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

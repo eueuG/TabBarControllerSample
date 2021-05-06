@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KQv-ko-PUt">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="GnT-bd-54D">
+            <objects>
+                <viewController id="KQv-ko-PUt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZYE-I0-b8F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyt-JO-5sa">
+                                <rect key="frame" x="167.5" y="428.5" width="79" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LEW-0T-LhA"/>
+                        <color key="backgroundColor" red="0.70268485920000001" green="0.96344697479999997" blue="0.88519930840000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="fyt-JO-5sa" firstAttribute="centerY" secondItem="ZYE-I0-b8F" secondAttribute="centerY" id="bEm-NI-fs7"/>
+                            <constraint firstItem="fyt-JO-5sa" firstAttribute="centerX" secondItem="ZYE-I0-b8F" secondAttribute="centerX" id="zQn-0g-Ft9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="2.circle" catalog="system" id="Mf2-Th-5CH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y2a-e8-Cmf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-371" y="-33"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
