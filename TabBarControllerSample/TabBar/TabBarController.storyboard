@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dbG-Zc-qaA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zMU-SG-mxE">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -17,10 +17,27 @@
             </objects>
             <point key="canvasLocation" x="-1004" y="-183"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FVv-2g-PMC">
+            <objects>
+                <navigationController id="zMU-SG-mxE" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gqS-o3-dZn">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dbG-Zc-qaA" kind="relationship" relationship="rootViewController" id="JNR-1H-AGE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mnQ-B9-ElB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2709" y="-33"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="uVt-zj-CeQ">
             <objects>
                 <tabBarController storyboardIdentifier="TabBar" id="dbG-Zc-qaA" customClass="TabBarController" customModule="TabBarControllerSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HEA-3Q-a4r"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="00U-58-LIy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
